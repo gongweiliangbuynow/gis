@@ -9,6 +9,6 @@ cat $tmpdate >> Readme.md
 echo $tmpdate 
 
 git add .
-git commit -m" @tmpdate"
+git commit -m  "${tmpdate}"
 git push -u origin master
 
