@@ -8,7 +8,7 @@ python ../main.py
 echo $tmpdate >> Readme.md
 echo $tmpdate 
 
-git add .
+git add  --ignore-removal  .
 git commit -m  "${tmpdate}"
 git push -u origin master
 
